@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script defer src="node.js"></script>
+    <script defer src="tutorial.js"></script>
+    <script defer src="matrix.js"></script>
+    <script defer src="algorithms/dijkstra.js"></script>
+    <script defer src="algorithms/dfs.js"></script>
+    <script defer src="eventListeners.js"></script>
+    <script defer src="board.js"></script>
+    <script defer src="main.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    
+</head>
+<body>
+    <header class ="header-user-dropdown">
+        <div class="header-limiter">
+            <h1>Algo Interact<span> Website </span><div><br><a href="https://github.com/baljeetsohal84/AlgoInteract/" target="_blank"><img src="images/git.svg" class="inline"> by Baljeet Singh</a></div></h1>
+             
+            
+            <button id="initDijkstra" type="button">Dijkstra</button>
+            <button id="initDFS" type="button">DFS</button>
+            <!-- <button id="random_weights" type="button">Random Weights</button> -->
+            <!-- <button id="even_weights" type="button">Even Weights</button> -->
+            <button id="Random/Even" type="button">Random / Even</button>
+            <button id="clear" type="button">Clear Board</button>
+            <button id="tutorialButton" type="button">Tutorial</button>
+        <div>
+
+        </header>
+    <table id='board'>
+    </table>
+    <div id='tutorial'>
+        <h1>Tutorial</h1>
+        <h2></h2>
+        <h3 id="pageNumber"></h6>
+        <img src="" alt="">
+        <button id ="skip" type="button">Skip</button>
+        <button id='next' type="button">next</button>
+        <button id="prev" type="button">prev</button>
+    </div>
+     
+</body>
+</html>
